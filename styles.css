@@ -345,6 +345,7 @@ main {
   padding: 15px;
   border-radius: 8px;
   color: var(--clr-fg-alt);
+  transition: transform 0.2s linear
 }
 
 .experience__description {
