@@ -104,29 +104,6 @@ button {
   object-fit: cover;
   margin-bottom: 20px; /* Adjust spacing as needed */
 }
-.work-experience {
-  margin: 40px 0;
-}
-
-.experience__grid {
-  display: grid;
-  gap: 20px;
-}
-
-.experience {
-  border: 1px solid #ddd;
-  padding: 15px;
-  border-radius: 8px;
-  background-color: #2a2f4c;
-}
-
-.experience__description {
-  margin-bottom: 10px;
-}
-
-.experience__dates {
-  font-style: italic;
-}
 
 /*===================
   buttons and links
@@ -352,6 +329,30 @@ main {
 
 .project .link--icon {
   margin-left: 0.5em;
+}
+
+.work-experience {
+  margin: 40px 0;
+}
+
+.experience__grid {
+  display: grid;
+  gap: 20px;
+}
+
+.experience {
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 8px;
+  
+}
+
+.experience__description {
+  margin-bottom: 10px;
+}
+
+.experience__dates {
+  font-style: italic;
 }
 
 .skills__list {
