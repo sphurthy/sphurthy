@@ -344,7 +344,7 @@ main {
   border: 1px solid #ddd;
   padding: 15px;
   border-radius: 8px;
-  
+  color: var(--clr-fg-alt);
 }
 
 .experience__description {
