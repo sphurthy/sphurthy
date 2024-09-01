@@ -342,8 +342,9 @@ main {
 
 .experience {
   border: 1px solid #ddd;
-  padding: 15px;
-  border-radius: 8px;
+  padding: 2em;
+  box-shadow: var(--shadow);
+  /* border-radius: 8px; */
   color: var(--clr-fg-alt);
   transition: transform 0.2s linear
 }
