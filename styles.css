@@ -145,16 +145,6 @@ button {
   color: var(--clr-fg);
   font-size: 1.2rem;
 }
-.icon {
-  width: 24px; /* Adjust size as needed */
-  height: 24px; /* Adjust size as needed */
-  vertical-align: middle; /* Align with text */
-  margin-right: 10px; /* Space between icons and text */
-}
-
-.google-colab-icon {
-  /* Additional styling specific to Google Colab icon */
-}
 
 .btn {
   display: block;
