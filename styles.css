@@ -303,17 +303,25 @@ main {
 }
 
 
-.project {
+/* .project {
   padding: 2em;
   margin: 0 auto;
   text-align: center;
   box-shadow: var(--shadow);
   transition: transform 0.2s linear;
+} */
+.project {
+  /* border: 1px solid #ddd; */
+  padding: 2em;
+  box-shadow: var(--shadow);
+  /* border-radius: 8px; */
+  color: var(--clr-fg-alt);
+  transition: transform 0.2s linear
 }
 
-.project:hover {
+/* .project:hover {
   transform: translateY(-7px);
-}
+} */
 
 .project__description {
   margin-top: 1em;
@@ -346,14 +354,14 @@ main {
   gap: 20px;
 }
 
-.experience {
-  /* border: 1px solid #ddd; */
+/* .experience {
+  border: 1px solid #ddd;
   padding: 2em;
   box-shadow: var(--shadow);
-  /* border-radius: 8px; */
+  border-radius: 8px;
   color: var(--clr-fg-alt);
   transition: transform 0.2s linear
-}
+} */
 
 .experience__description {
   margin-bottom: 10px;
