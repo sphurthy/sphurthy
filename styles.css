@@ -354,14 +354,14 @@ main {
   gap: 20px;
 }
 
-/* .experience {
+.experience {
   border: 1px solid #ddd;
   padding: 2em;
   box-shadow: var(--shadow);
   border-radius: 8px;
   color: var(--clr-fg-alt);
   transition: transform 0.2s linear
-} */
+}
 
 .experience__description {
   margin-bottom: 10px;
