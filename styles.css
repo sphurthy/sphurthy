@@ -316,6 +316,7 @@ main {
   box-shadow: var(--shadow);
   /* border-radius: 8px; */
   color: var(--clr-fg-alt);
+  margin: 40px 0;
   transition: transform 0.2s linear
 }
 
