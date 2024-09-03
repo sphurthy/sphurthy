@@ -355,7 +355,7 @@ main {
 }
 
 .experience {
-  border: 1px solid #ddd;
+  /* border: 1px solid #ddd; */
   padding: 2em;
   box-shadow: var(--shadow);
   border-radius: 8px;
