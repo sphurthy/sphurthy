@@ -355,7 +355,7 @@ main {
 } */
 
 .experience {
-  border: 1px solid #ddd;
+  /* border: 1px solid #ddd; */
   padding: 2em;
   box-shadow: var(--shadow);
   border-radius: 8px;
@@ -363,9 +363,9 @@ main {
   transition: transform 0.2s linear
 }
 
-.experience__description {
+/* .experience__description {
   margin-bottom: 10px;
-}
+} */
 
 .experience__dates {
   font-style: italic;
