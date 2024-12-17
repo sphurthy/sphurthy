@@ -297,10 +297,8 @@ main {
   grid-gap: 2em;
 } */
 
-.projects__grid, .experience__grid {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+.projects__grid {
+  display: grid;
   gap: 20px;
 }
 
@@ -312,13 +310,13 @@ main {
   box-shadow: var(--shadow);
   transition: transform 0.2s linear;
 } */
-.project, .experience {
-  background-color: #f9f9f9;
-  border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  padding: 20px;
-  max-width: 300px;
-  text-align: left;
+.project {
+  border: 1px solid #ddd;
+  padding: 2em;
+  box-shadow: var(--shadow);
+  border-radius: 8px;
+  color: var(--clr-fg-alt);
+  transition: transform 0.2s linear
 }
 
 /* .project:hover {
@@ -329,11 +327,11 @@ main {
   margin-top: 1em;
 }
 
-.project__stack, .experience__stack {
+.project__stack {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
-  margin-top: 15px;
+  justify-content: center;
+  margin: 1.2em 0;
 }
 
 .project__stack-item {
@@ -356,14 +354,14 @@ main {
   gap: 20px;
 } */
 
-/* .experience {
-  border: 1px solid #ddd;
+.experience {
+  /* border: 1px solid #ddd; */
   padding: 2em;
   box-shadow: var(--shadow);
-  border-radius: 8px;
+  /* border-radius: 8px; */
   color: var(--clr-fg-alt);
   transition: transform 0.2s linear
-} */
+}
 
 /* .experience__description {
   margin-bottom: 10px;
@@ -374,22 +372,16 @@ main {
 }
 
 .skills__list {
-  list-style: none;
-  padding: 0;
+  max-width: 450px;
+  width: 95%;
+  margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
-  gap: 15px;
   justify-content: center;
 }
 
 .skills__list-item {
-  display: flex;
-  align-items: center;
-  font-size: 1rem;
-  padding: 10px 15px;
-  background-color: #f1f1f1;
-  border-radius: 5px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 0.5em;
 }
 
 .contact {
